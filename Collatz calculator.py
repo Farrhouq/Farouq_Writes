@@ -1,5 +1,5 @@
 #Computes the time of flight of an integer in the Collatz Conjencture.
-def time_of_flight():
+def collatz_time_of_flight():
     n = int(input("Enter a number: "))
     n2 = n
 #Declare the time of flight variable.
