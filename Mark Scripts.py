@@ -19,6 +19,11 @@ def mark():
     ans_l =  [h for h in ans]
     for r in range(d):
         ans_l.append('NA')
+        
+# 3 years later, I look at the code and I see that the above paragraph could have been just:
+# ans_l += ['NA' for i in range(max(len(m_sch)-len(ans), 0))] # (untested)
+
+    
 #Results
     results = []
         
